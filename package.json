@@ -1,13 +1,13 @@
 {
-  "name": "sigmacraft",
+  "name": "sigmacraft_launcher",
   "version": "1.0.0",
   "productName": "Sigmacraft Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "author": "Daniel Scalzi (https://github.com/dscalzi/) & UnderMaster",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/UnderMasterGM/Sigmacraft",
+  "homepage": "https://github.com/UnderMasterGM/SigmaCraft",
   "bugs": {
-    "url": "https://github.com/UnderMasterGM/Sigmacraft/issues"
+    "url": "https://github.com/UnderMasterGM/SigmaCraft/issues"
   },
   "private": true,
   "main": "index.js",
@@ -20,30 +20,34 @@
     "lint": "eslint --config .eslintrc.json ."
   },
   "engines": {
-    "node": "18.x.x"
+    "node": "16.x.x"
   },
   "dependencies": {
     "@electron/remote": "^2.0.8",
     "adm-zip": "^0.5.9",
+    "async": "^3.2.4",
     "discord-rpc-patch": "^4.0.1",
-    "ejs": "^3.1.9",
+    "ejs": "^3.1.8",
     "ejs-electron": "^2.1.1",
-    "electron-updater": "^5.3.0",
-    "fs-extra": "^11.1.1",
+    "electron-updater": "^5.2.3",
+    "fs-extra": "^10.1.0",
     "github-syntax-dark": "^0.5.0",
     "got": "^11.8.5",
-    "helios-core": "~2.0.4",
-    "helios-distribution-types": "^1.2.0",
-    "jquery": "^3.6.4",
-    "semver": "^7.4.0"
+    "helios-core": "~0.1.1",
+    "jquery": "^3.6.1",
+    "node-stream-zip": "^1.15.0",
+    "request": "^2.88.2",
+    "semver": "^7.3.7",
+    "tar-fs": "^2.1.1",
+    "winreg": "^1.2.4"
   },
   "devDependencies": {
-    "electron": "^24.1.1",
-    "electron-builder": "^23.6.0",
-    "eslint": "^8.38.0"
+    "electron": "^26.3.0",
+    "electron-builder": "^23.3.3",
+    "eslint": "^8.23.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UnderMasterGM/Sigmacraft.git"
+    "url": "git+https://github.com/UnderMasterGM/SigmaCraft.git"
   }
 }
