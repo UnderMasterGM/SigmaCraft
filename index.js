@@ -125,7 +125,7 @@ ipcMain.on(MSFT_OPCODE.OPEN_LOGIN, (ipcEvent, ...arguments_) => {
     msftAuthViewSuccess = arguments_[0]
     msftAuthViewOnClose = arguments_[1]
     msftAuthWindow = new BrowserWindow({
-        title: LangLoader.queryJS('index.microsoftLoginTitle'),
+        title: 'Microsoft Login',
         backgroundColor: '#222222',
         width: 520,
         height: 600,
@@ -178,7 +178,7 @@ ipcMain.on(MSFT_OPCODE.OPEN_LOGOUT, (ipcEvent, uuid, isLastAccount) => {
     msftLogoutSuccess = false
     msftLogoutSuccessSent = false
     msftLogoutWindow = new BrowserWindow({
-        title: LangLoader.queryJS('index.microsoftLogoutTitle'),
+        title: 'Microsoft Logout',
         backgroundColor: '#222222',
         width: 520,
         height: 600,

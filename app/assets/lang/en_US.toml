@@ -1,69 +1,69 @@
 [ejs.landing]
-updateAvailableTooltip = "Update Available"
-usernamePlaceholder = "Username"
-usernameEditButton = "Edit"
-settingsTooltip = "Settings"
-serverStatus = "SERVER"
-serverStatusPlaceholder = "OFFLINE"
+updateAvailableTooltip = "Mise à jour disponible"
+usernamePlaceholder = "Pseudonyme"
+usernameEditButton = "Editer"
+settingsTooltip = "Paramètres"
+serverStatus = "SERVEUR"
+serverStatusPlaceholder = "OFF"
 mojangStatus = "MOJANG STATUS"
 mojangStatusTooltipTitle = "Services"
 mojangStatusNETitle = "Non&nbsp;Essential"
-newsButton = "NEWS"
-launchButton = "PLAY"
-launchButtonPlaceholder = "&#8226; No Server Selected"
-launchDetails = "Please wait.."
-newsNavigationStatus = "{currentPage} of {totalPages}"
-newsErrorLoadSpan = "Checking for News.."
-newsErrorFailedSpan = "Failed to Load News"
-newsErrorRetryButton = "Try Again"
-newsErrorNoneSpan = "No News"
+newsButton = "NOUVEAUTÉS"
+launchButton = "JOUER"
+launchButtonPlaceholder = "&#8226; Pas de serveur sélectionné"
+launchDetails = "Patientez.."
+newsNavigationStatus = "{currentPage} sur {totalPages}"
+newsErrorLoadSpan = "Recherche d'actualités.."
+newsErrorFailedSpan = "Erreur lors de la recherche"
+newsErrorRetryButton = "Réessayer"
+newsErrorNoneSpan = "Pas de nouveautés"
 
 [ejs.login]
-loginCancelText = "Cancel"
-loginSubheader = "MINECRAFT LOGIN"
-loginEmailError = "* Invalid Value"
-loginEmailPlaceholder = "EMAIL OR USERNAME"
-loginPasswordError = "* Required"
-loginPasswordPlaceholder = "PASSWORD"
+loginCancelText = "Annuler"
+loginSubheader = "CONNEXION MINECRAFT"
+loginEmailError = "* Valeur invalide"
+loginEmailPlaceholder = "EMAIL OU PSEUDONYME"
+loginPasswordError = "* Requis"
+loginPasswordPlaceholder = "MOT DE PASSE"
 loginForgotPasswordLink = "https://minecraft.net/password/forgot/"
-loginForgotPasswordText = "forgot password?"
-loginRememberMeText = "remember me?"
-loginButtonText = "LOGIN"
+loginForgotPasswordText = "Mot de passe oublié?"
+loginRememberMeText = "Se souvenir de moi?"
+loginButtonText = "CONNEXION"
 loginNeedAccountLink = "https://minecraft.net/store/minecraft-java-edition/"
-loginNeedAccountText = "Need an Account?"
-loginPasswordDisclaimer1 = "Your password is sent directly to mojang and never stored."
-loginPasswordDisclaimer2 = "{appName} is not affiliated with Mojang AB."
+loginNeedAccountText = "Besoin d'un compte?"
+loginPasswordDisclaimer1 = "Votre mot de passe est envoyé directement à Mojang et ne sera pas sauvegardé."
+loginPasswordDisclaimer2 = "{appName} n'est pas affilié à Mojang AB."
 
 [ejs.loginOptions]
-loginOptionsTitle = "Login Options"
-loginWithMicrosoft = "Login with Microsoft"
-loginWithMojang = "Login with Mojang"
-cancelButton = "Cancel"
+loginOptionsTitle = "Options de connexion"
+loginWithMicrosoft = "Connexion avec Microsoft"
+loginWithMojang = "Connexion avec Mojang (H.S)"
+cancelButton = "Annuler"
 
 [ejs.overlay]
-serverSelectHeader = "Available Servers"
-serverSelectConfirm = "Select"
-serverSelectCancel = "Cancel"
-accountSelectHeader = "Select an Account"
-accountSelectConfirm = "Select"
-accountSelectCancel = "Cancel"
+serverSelectHeader = "Serveurs disponibles"
+serverSelectConfirm = "Selectionner"
+serverSelectCancel = "Annuler"
+accountSelectHeader = "Selectionner un compte"
+accountSelectConfirm = "Selectionner"
+accountSelectCancel = "Annuler"
 
 [ejs.settings]
-navHeaderText = "Settings"
-navAccount = "Account"
+navHeaderText = "Paramètres"
+navAccount = "Compte"
 navMinecraft = "Minecraft"
 navMods = "Mods"
 navJava = "Java"
 navLauncher = "Launcher"
-navAbout = "About"
-navUpdates = "Updates"
-navDone = "Done"
-tabAccountHeaderText = "Account Settings"
-tabAccountHeaderDesc = "Add new accounts or manage existing ones."
+navAbout = "A propos"
+navUpdates = "MAJ"
+navDone = "Valider"
+tabAccountHeaderText = "Paramètres de compte"
+tabAccountHeaderDesc = "Ajoutez un nouveau compte ou modifier les existants."
 microsoftAccount = "Microsoft"
-addMicrosoftAccount = "+ Add Microsoft Account"
+addMicrosoftAccount = "+ Ajouter un compte Microsoft"
 mojangAccount = "Mojang"
-addMojangAccount = "+ Add Mojang Account"
+addMojangAccount = "+ Ajouter un compte Mojang"
 minecraftTabHeaderText = "Minecraft Settings"
 minecraftTabHeaderDesc = "Options related to game launch."
 gameResolutionTitle = "Game Resolution"
@@ -129,14 +129,6 @@ waitingText = "Waiting for Microsoft.."
 [ejs.welcome]
 continueButton = "CONTINUE"
 
-
-[js.discord]
-waiting = "Waiting for Client.."
-state = "Server: {shortId}"
-
-[js.index]
-microsoftLoginTitle = "Microsoft Login"
-microsoftLogoutTitle = "Microsoft Logout"
 
 [js.login]
 login = "LOGIN"
@@ -209,14 +201,6 @@ checkConsoleForDetails = "Please check the console (CTRL + Shift + i) for more d
 
 [js.landing.news]
 checking = "Checking for News"
-
-[js.landing.discord]
-loading = "Loading game.."
-joining = "Sailing to Westeros!"
-joined = "Exploring the Realm!"
-
-[js.overlay]
-dismiss = "Dismiss"
 
 [js.settings.fileSelectors]
 executables = "Executables"
@@ -291,7 +275,7 @@ failedMessageSelectAnotherAccount = "We were unable to refresh the login for <st
 loginButton = "Login"
 selectAnotherAccountButton = "Select Another Account"
 
-[js.uicore.autoUpdate]
+[uicore.autoUpdate]
 checkingForUpdateButton = "Checking for Updates..."
 installNowButton = "Install Now"
 checkForUpdatesButton = "Check for Updates"
