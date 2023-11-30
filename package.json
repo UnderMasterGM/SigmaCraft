@@ -1,6 +1,6 @@
 {
   "name": "sigmacraftlauncher",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "productName": "Sigmacraft Launcher",
   "description": "Launcher Sigmacraft Moddé",
   "author": "Christ Poete",
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/UnderMasterGM/Sigmacraft.git"
   }
 }
